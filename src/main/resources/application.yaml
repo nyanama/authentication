@@ -1,0 +1,12 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/basics?allowPublicKeyRetrieval=true
+    username: amila_one
+    password: Amila_pw
+    #driver-class-name: com.microsoft.sqlserver.jdbc.sqlserverdriver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
